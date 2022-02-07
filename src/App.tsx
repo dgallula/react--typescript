@@ -1,6 +1,5 @@
 import React , {useEffect, useRef,useState } from 'react';
-import {count} from 'console';
- 
+  
 function App() {
   const [name,setName] = useState('');
   const  counterRef =useRef(0);
